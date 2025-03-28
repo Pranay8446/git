@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    padding: 5vw;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw;
+    background-color: rgb(0, 124, 128);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
